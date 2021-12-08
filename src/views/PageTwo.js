@@ -22,6 +22,8 @@ import DA from "../components/DownArrow";
 import c2 from "../assets/img/circ2.svg";
 import c3 from "../assets/img/circ3.svg";
 
+import hardcopy from "../assets/downloads/Customer Engagement eBook.pdf";
+
 import {
   Omni as Icon1,
   Trolley as Icon2,
@@ -133,9 +135,11 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
         <span onClick={goP1}>The customer of today</span>
         <span onClick={closeMenu}>Meet the Amdocs Solution</span>
         <span onClick={goP3}>Amdocs Omni-Channel Customer Engagement</span>
-        <DownloadButton>Download PDF</DownloadButton>
+        <a download href={hardcopy}>
+          <DownloadButton>Download PDF</DownloadButton>
+        </a>
         <a
-          href="mailto:Hadar.Landau@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
+          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
           target="_blank"
         >
           <RequestButton>Request a demo</RequestButton>
@@ -146,7 +150,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <div className="logo" onClick={homePage}></div>
           <div className="items">
             <a
-              href="mailto:Hadar.Landau@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
+              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
               target="_blank"
             >
               <span className="request-prompt">Request a demo</span>
@@ -166,11 +170,12 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
               <span>Next</span>
               <i className="mi-arrow-right icon" />
             </div>
-
-            <div className="next">
-              <span>Download</span>
-              <i className="mi-download icon" />
-            </div>
+            <a style={{ display: "contents" }} download href={hardcopy}>
+              <div className="next">
+                <span>Download</span>
+                <i className="mi-download icon" />
+              </div>
+            </a>
           </div>
           <div className="items">
             <div
