@@ -429,6 +429,10 @@ const DownPrompt = styled.div`
     left: 50%;
     transform: translateX(-50%);
     width: fit-content;
+
+    @media (max-width: 850px) {
+      display: none;
+    }
   }
 
   @media (max-width: 850px) {
@@ -469,6 +473,10 @@ const NextPagePrompt = styled.div`
     right: -70px;
     transform: translateX(-50%) rotate(90deg);
     width: fit-content;
+
+    @media (max-width: 850px) {
+      display: none;
+    }
   }
 
   @media (max-width: 850px) {
