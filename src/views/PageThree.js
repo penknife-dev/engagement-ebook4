@@ -859,8 +859,16 @@ const GridArea = styled.div`
     align-items: center;
     justify-content: center;
 
+    @media (max-width: 850px) {
+      width: 100%;
+    }
+
     h2 {
       text-align: center;
+
+      @media (max-width: 850px) {
+        font-size: 1.4em;
+      }
     }
 
     .arrow-click {
@@ -926,7 +934,7 @@ const GridArea = styled.div`
     }
     h2 {
       @media (max-width: 850px) {
-        font-size: 1em;
+        font-size: 1.4em;
       }
     }
   }
