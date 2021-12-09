@@ -577,7 +577,7 @@ const Navbar = styled.nav`
   }
 
   .logo {
-    display: block;
+    display: inline-block;
     margin-right: auto;
     margin-left: 160px;
     background: url(${logo}) no-repeat center center;
