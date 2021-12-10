@@ -237,7 +237,7 @@ const PageOne = ({
                 <p>
                   So when it comes to customer loyalty – and overall business
                   success – the key lies in your ability to provide an amazing
-                  omnichannel experience.
+                  omni-channel experience.
                 </p>
               </div>
             </Card>
