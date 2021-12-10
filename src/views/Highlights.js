@@ -214,7 +214,7 @@ const TitleHighlight = styled.div`
     -webkit-text-fill-color: transparent;
     font-size: 1.9em;
     /* font-family: 'MarkPro-Bold'; */
-    line-height: 1;
+    line-height: 1.1;
     padding-bottom: 5px;
     font-weight: 600 !important;
 
@@ -237,6 +237,7 @@ const TitleHighlight = styled.div`
     position: relative;
     z-index: 100;
     margin-bottom: auto;
+    width: 320px;
 
     @media (max-width: 850px) {
       width: 180px;
