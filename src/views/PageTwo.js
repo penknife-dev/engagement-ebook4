@@ -60,7 +60,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
     gsap.to(".thenav", { y: "-100px", duration: 1 });
 
     setTimeout(() => {
-      history.push("/amdocs-omni-channel-customer-engagement");
+      history.push("/amdocs-omnichannel-customer-engagement");
     }, 200);
   };
 
@@ -109,7 +109,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
     gsap.to(window, { duration: 0.5, scrollTo: 0 });
     gsap.to(".thenav", { y: "-100px", duration: 1 });
     setTimeout(() => {
-      history.push("/amdocs-omni-channel-customer-engagement");
+      history.push("/amdocs-omnichannel-customer-engagement");
     }, 400);
   };
 
@@ -134,12 +134,12 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
       >
         <span onClick={goP1}>The customer of today</span>
         <span onClick={closeMenu}>Meet the Amdocs Solution</span>
-        <span onClick={goP3}>Amdocs Omni-Channel Customer Engagement</span>
+        <span onClick={goP3}>Amdocs Omnichannel Customer Engagement</span>
         <a download href={hardcopy}>
           <DownloadButton>Download PDF</DownloadButton>
         </a>
         <a
-          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
+          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
           target="_blank"
         >
           <RequestButton>Request a demo</RequestButton>
@@ -150,7 +150,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <div className="logo" onClick={homePage}></div>
           <div className="items">
             <a
-              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
+              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
               target="_blank"
             >
               <span className="request-prompt">Request a demo</span>
@@ -194,10 +194,10 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <PageContent>
             <Card>
               <div className="inner">
-                <h1>Meet Amdocs Omni-Channel Customer Engagement</h1>
+                <h1>Meet Amdocs Omnichannel Customer Engagement</h1>
                 <p>
-                  Intelligent & modular, our solution enables call center and
-                  retail shop agents to manage all aspects of the customer
+                  Intelligent &amp; modular, our solution enables contact center
+                  and retail shop agents to manage all aspects of the customer
                   relationship from a single application.
                 </p>
               </div>
@@ -239,7 +239,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
               >
                 <Icon1 />
               </span>
-              <div className="title">Omni-channel customer experience</div>
+              <div className="title">Omnichannel customer experience</div>
               <div className="desc">
                 multi-topic &amp; multi-channel interactions
               </div>

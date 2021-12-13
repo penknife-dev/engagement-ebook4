@@ -101,7 +101,7 @@ const PageOne = ({
     gsap.to(window, { duration: 0.5, scrollTo: 0 });
     gsap.to(".thenav", { y: "-100px", duration: 1 });
     setTimeout(() => {
-      history.push("/amdocs-omni-channel-customer-engagement");
+      history.push("/amdocs-omnichannel-customer-engagement");
     }, 400);
   };
 
@@ -154,12 +154,12 @@ const PageOne = ({
       >
         <span onClick={closeMenu}>The customer of today</span>
         <span onClick={goP2}>Meet the Amdocs Solution</span>
-        <span onClick={goP3}>Amdocs Omni-Channel Customer Engagement</span>
+        <span onClick={goP3}>Amdocs Omnichannel Customer Engagement</span>
         <a download href={hardcopy}>
           <DownloadButton>Download PDF</DownloadButton>
         </a>
         <a
-          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
+          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
           target="_blank"
         >
           <RequestButton>Request a demo</RequestButton>
@@ -172,7 +172,7 @@ const PageOne = ({
           </div>
           <div className="items">
             <a
-              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omni-Channel Customer Engagement eBook Enquiry"
+              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
               target="_blank"
             >
               <span className="request-prompt">Request a demo</span>
@@ -237,7 +237,7 @@ const PageOne = ({
                 <p>
                   So when it comes to customer loyalty – and overall business
                   success – the key lies in your ability to provide an amazing
-                  omni-channel experience.
+                  omnichannel experience.
                 </p>
               </div>
             </Card>

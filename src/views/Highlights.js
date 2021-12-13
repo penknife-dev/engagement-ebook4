@@ -35,7 +35,7 @@ const Highlights = ({ isFoward, setIsFoward }) => {
   const pageThree = (e) => {
     setIsFoward(true);
     setTimeout(() => {
-      history.push("/amdocs-omni-channel-customer-engagement");
+      history.push("/amdocs-omnichannel-customer-engagement");
     }, 100);
   };
 
@@ -52,7 +52,7 @@ const Highlights = ({ isFoward, setIsFoward }) => {
             <img src={panel1} alt="" />
             <div className="pane color-change-2x kenburns-top"></div>
             <InfoBox>
-              <h1>Amdocs Omni-Channel Customer Engagement</h1>
+              <h1>Amdocs Omnichannel Customer Engagement</h1>
               <h2>one-stop-shop for a winning customer experience</h2>
             </InfoBox>
           </TitleHighlight>
@@ -80,7 +80,7 @@ const Highlights = ({ isFoward, setIsFoward }) => {
             <img className="kenburns-top3" src={panel4} alt="" />
             <div className="pane"></div>
             <InfoBox>
-              <p>Amdocs Omni-Channel Customer Engagement</p>
+              <p>Amdocs Omnichannel Customer Engagement</p>
             </InfoBox>
           </PageThreeHighlight>
         </HighlightsArea>
@@ -110,7 +110,7 @@ const Highlights = ({ isFoward, setIsFoward }) => {
           >
             <Breadcrumb>
               <p>
-                Intelligent & modular, our solution enables call center and
+                Intelligent & modular, our solution enables contact center and
                 retail shop agents to manage all aspects of the customer...
               </p>
             </Breadcrumb>
@@ -126,8 +126,8 @@ const Highlights = ({ isFoward, setIsFoward }) => {
           >
             <Breadcrumb>
               <p>
-                Amdocs Omni-Channel Customer Engagement helps CSPs increase
-                their customer & employee satisfaction and upsurge revenue...
+                Amdocs Omnichannel Customer Engagement helps CSPs increase their
+                customer &amp; employee satisfaction and upsurge revenue...
               </p>
             </Breadcrumb>
           </ReactTooltip>
