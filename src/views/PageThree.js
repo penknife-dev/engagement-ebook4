@@ -25,7 +25,7 @@ import { Tick, Tick2, Tick3, Tick4 } from "../components/Icons";
 import DA from "../components/DownArrow";
 import MG from "../components/Media";
 
-import pdf from "../assets/downloads/AMDOCS Solution Profile.pdf";
+import pdf from "../assets/downloads/Amdocs Omnichannel Customer Engagement Solution Profile.pdf";
 import hardcopy from "../assets/downloads/Customer Engagement eBook.pdf";
 
 import {
