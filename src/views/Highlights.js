@@ -6,7 +6,8 @@ import PageSlide from "../components/PageSlide";
 import { Link, useHistory } from "react-router-dom";
 import { BrowserView } from "react-device-detect";
 import logo from "../assets/img/logo1.svg";
-import panel1 from "../assets/img/panel1-2.jpg";
+import omnilogo from "../assets/img/omnichannel-logo.svg";
+import panel1 from "../assets/img/panel1-3.jpg";
 import panel2 from "../assets/img/panel2.jpg";
 import panel3 from "../assets/img/panel3.jpg";
 import panel4 from "../assets/img/panel4.jpg";
@@ -46,8 +47,13 @@ const Highlights = ({ isFoward, setIsFoward }) => {
       <PageSlide isFoward={isFoward}>
         <HighlightsArea>
           <TitleHighlight>
-            <div className="logo">
-              <img src={logo} alt="" />
+            <div className="logo-container">
+              <div className="logo">
+                <img src={logo} alt="" />
+              </div>
+              <div className="sub-logo">
+                <img src={omnilogo} alt="" />
+              </div>
             </div>
             <img src={panel1} alt="" />
             <div className="pane color-change-2x kenburns-top"></div>
@@ -232,8 +238,15 @@ const TitleHighlight = styled.div`
     }
   }
 
+  .logo-container {
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
   .logo {
-    display: block;
+    display: inline-block;
     position: relative;
     z-index: 100;
     margin-bottom: auto;
@@ -258,6 +271,34 @@ const TitleHighlight = styled.div`
       object-fit: unset;
     }
   }
+
+  .sub-logo {
+    display: inline0block;
+    position: relative;
+    z-index: 100;
+    margin-left: auto;
+    width: 160px;
+
+    @media (max-width: 850px) {
+      width: 100px;
+      height: auto;
+
+      img {
+        height: auto;
+      }
+    }
+
+    img {
+      width: 100% !important;
+      position: relative;
+      top: unset !important;
+      left: unset !important;
+      right: unset !important;
+      bottom: unset !important;
+      object-fit: unset;
+    }
+  }
+
   img {
     position: absolute;
     top: 0;
