@@ -6,7 +6,7 @@ import PageSlide from "../components/PageSlide";
 import { Link, useHistory } from "react-router-dom";
 import { BrowserView } from "react-device-detect";
 import logo from "../assets/img/logo1.svg";
-import omnilogo from "../assets/img/omnichannel-logo.svg";
+import omnilogo from "../assets/img/customer-engagement.svg";
 import panel1 from "../assets/img/panel1-3.jpg";
 import panel2 from "../assets/img/panel2.jpg";
 import panel3 from "../assets/img/panel3.jpg";
@@ -36,7 +36,7 @@ const Highlights = ({ isFoward, setIsFoward }) => {
   const pageThree = (e) => {
     setIsFoward(true);
     setTimeout(() => {
-      history.push("/amdocs-omnichannel-customer-engagement");
+      history.push("/amdocs-customer-engagement");
     }, 100);
   };
 
@@ -58,7 +58,7 @@ const Highlights = ({ isFoward, setIsFoward }) => {
             <img src={panel1} alt="" />
             <div className="pane color-change-2x kenburns-top"></div>
             <InfoBox>
-              <h1>Amdocs Omnichannel Customer Engagement</h1>
+              <h1>Amdocs Customer Engagement</h1>
               <h2>one-stop-shop for a winning customer experience</h2>
             </InfoBox>
           </TitleHighlight>
@@ -86,7 +86,7 @@ const Highlights = ({ isFoward, setIsFoward }) => {
             <img className="kenburns-top3" src={panel4} alt="" />
             <div className="pane"></div>
             <InfoBox>
-              <p>Amdocs Omnichannel Customer Engagement</p>
+              <p>Amdocs Customer Engagement</p>
             </InfoBox>
           </PageThreeHighlight>
         </HighlightsArea>
@@ -132,8 +132,8 @@ const Highlights = ({ isFoward, setIsFoward }) => {
           >
             <Breadcrumb>
               <p>
-                Amdocs Omnichannel Customer Engagement helps CSPs increase their
-                customer &amp; employee satisfaction and upsurge revenue...
+                Amdocs Customer Engagement helps CSPs increase their customer
+                &amp; employee satisfaction and upsurge revenue...
               </p>
             </Breadcrumb>
           </ReactTooltip>

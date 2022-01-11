@@ -60,7 +60,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
     gsap.to(".thenav", { y: "-100px", duration: 1 });
 
     setTimeout(() => {
-      history.push("/amdocs-omnichannel-customer-engagement");
+      history.push("/amdocs-customer-engagement");
     }, 200);
   };
 
@@ -109,7 +109,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
     gsap.to(window, { duration: 0.5, scrollTo: 0 });
     gsap.to(".thenav", { y: "-100px", duration: 1 });
     setTimeout(() => {
-      history.push("/amdocs-omnichannel-customer-engagement");
+      history.push("/amdocs-customer-engagement");
     }, 400);
   };
 
@@ -139,7 +139,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <DownloadButton>Download PDF</DownloadButton>
         </a>
         <a
-          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
+          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Customer Engagement eBook Enquiry"
           target="_blank"
         >
           <RequestButton>Request a demo</RequestButton>
@@ -150,7 +150,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <div className="logo" onClick={homePage}></div>
           <div className="items">
             <a
-              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
+              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Customer Engagement eBook Enquiry"
               target="_blank"
             >
               <span className="request-prompt">Request a demo</span>
@@ -194,7 +194,7 @@ const PageTwo = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <PageContent>
             <Card>
               <div className="inner">
-                <h1>Meet Amdocs Omnichannel Customer Engagement</h1>
+                <h1>Meet Amdocs Customer Engagement</h1>
                 <p>
                   Intelligent &amp; modular, our solution enables contact center
                   and retail shop agents to manage all aspects of the customer

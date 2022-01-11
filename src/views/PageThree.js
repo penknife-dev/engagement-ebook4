@@ -131,7 +131,7 @@ const PageThree = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
     gsap.to(window, { duration: 0.5, scrollTo: 0 });
     gsap.to(".thenav", { y: "-100px", duration: 1 });
     setTimeout(() => {
-      history.push("/amdocs-omnichannel-customer-engagement");
+      history.push("/amdocs-customer-engagement");
     }, 400);
   };
 
@@ -160,7 +160,7 @@ const PageThree = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <DownloadButton>Download PDF</DownloadButton>
         </a>
         <a
-          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
+          href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Customer Engagement eBook Enquiry"
           target="_blank"
         >
           <RequestButton>Request a demo</RequestButton>
@@ -171,7 +171,7 @@ const PageThree = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <div className="logo" onClick={homePage}></div>
           <div className="items">
             <a
-              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
+              href="mailto:amdocscustomerenga@amdocs.com?subject=Amdocs Customer Engagement eBook Enquiry"
               target="_blank"
             >
               <span className="request-prompt">Request a demo</span>
@@ -216,7 +216,7 @@ const PageThree = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
           <PageContent>
             <Card>
               <div className="inner">
-                <h1>Amdocs Omnichannel Customer Engagement</h1>
+                <h1>Amdocs Customer Engagement</h1>
                 <p>
                   Helps CSPs increase their customer & employee satisfaction and
                   upsurge revenue.
@@ -329,7 +329,7 @@ const PageThree = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
             </GridTile>
 
             <a
-              href="mailto:Hadar.Landau@amdocs.com?subject=Amdocs Omnichannel Customer Engagement eBook Enquiry"
+              href="mailto:Hadar.Landau@amdocs.com?subject=Amdocs Customer Engagement eBook Enquiry"
               target="_blank"
             >
               <div
@@ -354,8 +354,8 @@ const PageThree = ({ isOpen, setIsOpen, isFoward, setIsFoward }) => {
               >
                 <div>
                   <h2>
-                    Learn more about Amdocs Omnichannel Customer Engagement, in
-                    this solution profile
+                    Learn more about Amdocs Customer Engagement, in this
+                    solution profile
                   </h2>
                 </div>
                 <img className="arrow-click" src={arrow} alt="" />

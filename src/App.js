@@ -61,7 +61,7 @@ const App = () => {
                 setIsFoward={setIsFoward}
               />
             </Route>
-            <Route path="/amdocs-omnichannel-customer-engagement">
+            <Route path="/amdocs-customer-engagement">
               <PageThree
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
