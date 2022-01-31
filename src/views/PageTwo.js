@@ -22,7 +22,7 @@ import DA from "../components/DownArrow";
 import c2 from "../assets/img/circ2.svg";
 import c3 from "../assets/img/circ3.svg";
 
-import hardcopy from "../assets/downloads/Customer Engagement eBook.pdf";
+import hardcopy from "../assets/downloads/Amdocs Customer Engagement eBook.pdf";
 
 import {
   Omni as Icon1,

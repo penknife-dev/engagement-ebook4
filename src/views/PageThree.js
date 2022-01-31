@@ -26,7 +26,7 @@ import DA from "../components/DownArrow";
 import MG from "../components/Media";
 
 import pdf from "../assets/downloads/Amdocs Omnichannel Customer Engagement Solution Profile.pdf";
-import hardcopy from "../assets/downloads/Customer Engagement eBook.pdf";
+import hardcopy from "../assets/downloads/Amdocs Customer Engagement eBook.pdf";
 
 import {
   People as Icon1,

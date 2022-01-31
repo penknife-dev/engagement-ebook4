@@ -25,7 +25,7 @@ import c3 from "../assets/img/circ3.svg";
 
 import { Touch } from "../components/Icons";
 
-import hardcopy from "../assets/downloads/Customer Engagement eBook.pdf";
+import hardcopy from "../assets/downloads/Amdocs Customer Engagement eBook.pdf";
 
 gsap.registerPlugin(ScrollToPlugin);
 gsap.registerPlugin(ScrollTrigger);
